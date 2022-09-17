@@ -1,2 +1,1 @@
-# project-2
-This repo contains code for Udacity DevOps Nano Degree Project 2 - Building CI/CD Pipeline 
+This repo contains the starter materials for projects from the Udacity Azure Cloud DevOps Nanodegree Program.
