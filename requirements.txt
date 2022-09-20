@@ -1,3 +1,4 @@
+python==3.7.14
 Flask==2.0.3
 pandas
 scikit-learn
