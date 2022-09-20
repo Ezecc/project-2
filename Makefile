@@ -1,4 +1,5 @@
 install:
+	pip install --upgrade python==3.7.14
 	pip install --upgrade pip && pip install -r requirements.txt
 
 test:
