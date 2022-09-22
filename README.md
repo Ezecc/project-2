@@ -1,6 +1,7 @@
 # Overview
 
 <TODO: complete this with an overview of your project>
+This project.....
 
 [![Python application test with Github Actions](https://github.com/Ezecc/project-2/actions/workflows/main.yml/badge.svg)](https://github.com/Ezecc/project-2/actions/workflows/main.yml)
 
