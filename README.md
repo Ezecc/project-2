@@ -60,6 +60,18 @@ as shown below:
 ### Continuous Delivery on Azure
 Configure Azure Pipelines to deploy the Flask starter code to Azure App Services as follows.
 - Replace scaffolding code with Flask ML code
+- Run the app locally as follows:
+    - activate virtual environmen by running the following code:
+
+        - ```source ~/.myrepo/bin/activate``` followed by 
+        - ```python app.py```
+    - Open another cloud shell environment
+        - acitvate the virtual environment and run
+        - ```./make_prediction.sh```
+The expected output is
+
+![](project-2_screen_captures/local_prediction_Screenshot 2022-09-25 145636.png)
+
 - Authorize Aure App Service
 - Enable condinuous deployment with Azure Piplines
 - Checkin Azure Pipelines ```yml``` config file into Github
