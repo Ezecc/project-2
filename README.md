@@ -74,9 +74,11 @@ Configure Azure Pipelines to deploy the Flask starter code to Azure App Services
         - acitvate the virtual environment and run
         - ```./make_prediction.sh```
         
-        The expected output is
+        The expected output is 
 
-![](project-2_screen_captures/local_prediction_Screenshot.png.png)
+
+![](project-2_screen_captures/local_prediction_Screenshot.png.png){ width="100%" height="100" style="display: block; margin: 0 auto" }
+
 
 - Deploy the app by running
 - ```az webapp up -n bostonpredictionservice```
