@@ -6,7 +6,7 @@ This project involves building a Github repository from scratch and creating a s
 
 ## Project Plan
 Below  are the links to Trello board and spreadsheet for the project.
-- [Project Trello Board](https://docs.google.com/spreadsheets/d/1-Hxu01ULV00NyDzv8BaUDq6MxsHrYBUAaKTyO5BVbls/edit?usp=sharing)
+- [Project Trello Board](https://trello.com/invite/b/IUBDY9Sp/fd665e6444e3d352039da972fe9bbead/project-2ci-cd-pipeline)
 
 - [Initial project spreadsheet](https://docs.google.com/spreadsheets/d/1xqKjiT4MKB6uVOlxOQu0apmq0jOis8eYk-xK6Vg5MwY/edit?usp=sharing)
 
