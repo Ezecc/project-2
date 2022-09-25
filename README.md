@@ -15,7 +15,7 @@ This project involves building a Github repository from scratch and creating a s
 ### Project Architecture
 Below is the architectural diag the project.
 
-![](project-2_screen_captures\Project-2_Architecture.png)
+![](project-2_screen_captures/Project-2_Architecture.png)
 ### Creating the project repository
 Setup the project repository on Github with the initial project scaffold: 
 - Makefile
@@ -31,7 +31,7 @@ Setup the project repository on Github with the initial project scaffold:
 ### Cloning the project into Azure Cloud Shell
 Below is the screenshot of the project repo cloned into the azure shell development environment.
 
-![](project-2_screen_captures\cloning_repo_in_az_shell.png)
+![](project-2_screen_captures/cloning_repo_in_az_shell.png)
 
 ### Updating the project scaffold and creating Python virtual environment
 - Update the project files: `Makefile`, `requirements.txt` and include the project code files
@@ -42,7 +42,7 @@ Below is the screenshot of the project repo cloned into the azure shell developm
 - Test the code by running ```make all```
 - A screenshot showing passing the test is shown below:
 
-![](project-2_screen_captures\test_passing.png)
+![](project-2_screen_captures/test_passing.png)
 
 ### Configure and Test GitHub Actions
 Go to the Github repo and do the following:
@@ -51,7 +51,7 @@ Go to the Github repo and do the following:
 - Verify remote tests pass in Github Actions UI
 as shown below:
 
-![](project-2_screen_captures\github_action_ppassing2.png)
+![](project-2_screen_captures/github_action_ppassing2.png)
 
 
 
