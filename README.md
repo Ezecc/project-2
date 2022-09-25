@@ -68,17 +68,63 @@ Configure Azure Pipelines to deploy the Flask starter code to Azure App Services
     - Open another cloud shell environment
         - acitvate the virtual environment and run
         - ```./make_prediction.sh```
-The expected output is
+        
+        The expected output is
 
-![](project-2_screen_captures/local_prediction_Screenshot 2022-09-25 145636.png)
+![](project-2_screen_captures/local_prediction_Screenshot.png.png)
 
-- Authorize Aure App Service
-- Enable condinuous deployment with Azure Piplines
-- Checkin Azure Pipelines ```yml``` config file into Github
-- Enable Github + Azure Pipelines
-- Deploy the project
-- Modify the starter code file ```make_predict_azure_app.sh```  with your chosen app name
-- Verify prediction by running the code ```make_predict_azure_app.sh```
+- Deploy the app by running
+- ```az webapp up -n bostonpredictionservice```
+    - here, *bostonpredictionservice* is the name of the app
+- copy our the generated url: ```https://bostonpredictionservice.azurewebsites.net``` to the browser and the following message will be displayed.
+
+![](project-2_screen_captures/Screenshot_deployed_sklearn_model_in_azure.png)
+
+- To make remote prediction: modify the project code file ```make_predict_azure_app.sh```  with your chosen app name.
+- Verify prediction by running the code ```./make_predict_azure_app.sh```
+- The output message is as follows:
+
+![](project-2_screen_captures\Screenshot_azure_remote_prediction.png)
+
+- Get log from the deployed app by running the command
+```az webapp log tail``` and it displays the following output.
+
+![](project-2_screen_captures\Screenshot_app_log_tail.png)
+
+- Checking performance validation with ```locust```
+    - modify the host name in the ```locustfile.py``` with the url of the deployed app.
+    - Ensure the key names in the json under the ```predict``` function is the same as those in ```app.py```.
+- Run ```locust -f locustfile.py --headless -u 20 -r 5 -t 20s```
+- The expected output is
+
+![](project-2_screen_captures/Screenshot_locust_output.png)
+
+### Setting up CI/CD using 
+- Go to the Azure DevOps organization in the portal
+- Click on ```My Azure DeOps Organizations```
+- Sign in
+- Create a new project and give it a name, for e.g ```ci_cd_project2```
+- Make sure that ```Git``` is selected as the version control and create
+- Create a new service connection under the ```Pipelines``` tab after clicking on project settings
+- choose ```Create service connection``` --> ```Azure Resource Manager``` --> ```Service principal (automatic) -->  ``` --> ```subsription``` 
+
+- Choose ```Service connection name```
+
+- login
+- Choose the same resource group where the app is deployed
+- Make sure the ```ci_cd_prGrant access permission to all pipelines is checked``` and save
+- Go to ```Pieplines``` and create a new pipeline
+- Choose ```Github```
+
+- Configure the pipeline as ```Python to Linux Wepp App on Azure```
+- Choose MSDN Platform Supsription and continue
+- Sign in to Github 
+- Choose the Project Repo in Github
+- Validate and configure
+- Check the package version then save and run
+- The output is as follows.
+
+![](project-2_screen_captures\Screenshot_azure_pipeline.png)
 
 ### Enhancements (Future Improvement Suggestions)
 
@@ -86,6 +132,9 @@ Some of the ways the project can be improved in the future are:
 - Ensure that all needed packages are specified in the ```requirements.txt``` file.
 - Provide starter codes for deep learming frameworks such as Pytorch and TensorFlow.
 
+### Demo 
+
+<TODO: Add link Screencast on YouTube>
 
 
 
