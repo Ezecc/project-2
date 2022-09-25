@@ -54,7 +54,22 @@ as shown below:
 ![](project-2_screen_captures/github_action_ppassing2.png)
 
 
+### Continuous Delivery on Azure
+Configure Azure Pipelines to deploy the Flask starter code to Azure App Services as follows.
+- Replace scaffolding code with Flask ML code
+- Authorize Aure App Service
+- Enable condinuous deployment with Azure Piplines
+- Checkin Azure Pipelines ```yml``` config file into Github
+- Enable Github + Azure Pipelines
+- Deploy the project
+- Modify the starter code file ```make_predict_azure_app.sh```  with your chosen app name
+- Verify prediction by running the code ```make_predict_azure_app.sh```
 
+### Enhancements (Future Improvement Suggestions)
+
+Some of the ways the project can be improved in the future are:
+- Ensure that all needed packages are specified in the ```requirements.txt``` file.
+- Provide starter codes for deep learming frameworks such as Pytorch and TensorFlow.
 
 
 
