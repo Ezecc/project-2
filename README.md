@@ -89,12 +89,12 @@ Configure Azure Pipelines to deploy the Flask starter code to Azure App Services
 - Verify prediction by running the code ```./make_predict_azure_app.sh```
 - The output message is as follows:
 
-![](project-2_screen_captures\Screenshot_azure_remote_prediction.png)
+![](project-2_screen_captures/Screenshot_azure_remote_prediction.png)
 
 - Get log from the deployed app by running the command
 ```az webapp log tail``` and it displays the following output.
 
-![](project-2_screen_captures\Screenshot_app_log_tail.png)
+![](project-2_screen_captures/Screenshot_app_log_tail.png)
 
 - Checking performance validation with ```locust```
     - modify the host name in the ```locustfile.py``` with the url of the deployed app.
