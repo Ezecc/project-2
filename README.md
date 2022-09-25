@@ -5,10 +5,13 @@ This project involves building a Github repository from scratch and creating a s
 [![Python application test with Github Actions](https://github.com/Ezecc/project-2/actions/workflows/main.yml/badge.svg)](https://github.com/Ezecc/project-2/actions/workflows/main.yml)
 
 ## Project Plan
-<TODO: Project Plan
+Below  are the links to Trello board and spreadsheet for the project.
+- [Project Trello Board](https://docs.google.com/spreadsheets/d/1-Hxu01ULV00NyDzv8BaUDq6MxsHrYBUAaKTyO5BVbls/edit?usp=sharing)
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+- [Initial project spreadsheet](https://docs.google.com/spreadsheets/d/1xqKjiT4MKB6uVOlxOQu0apmq0jOis8eYk-xK6Vg5MwY/edit?usp=sharing)
+
+- [Final Project Spreadsheet](https://docs.google.com/spreadsheets/d/1-Hxu01ULV00NyDzv8BaUDq6MxsHrYBUAaKTyO5BVbls/edit?usp=sharing)
+
 
 ## Instructions
 
@@ -70,6 +73,8 @@ Configure Azure Pipelines to deploy the Flask starter code to Azure App Services
 Some of the ways the project can be improved in the future are:
 - Ensure that all needed packages are specified in the ```requirements.txt``` file.
 - Provide starter codes for deep learming frameworks such as Pytorch and TensorFlow.
+
+
 
 
 
