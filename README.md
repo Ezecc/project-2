@@ -63,7 +63,7 @@ as shown below:
 
 
 ### Continuous Delivery on Azure
-Configure Azure Pipelines to deploy the Flask starter code to Azure App Services as follows.
+Configure Azure Pipelines to deploy the [Flask starter code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files) to Azure App Services as follows.
 - Replace scaffolding code with Flask ML code
 - Run the app locally as follows:
     - activate virtual environmen by running the following code:
