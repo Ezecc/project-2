@@ -77,7 +77,7 @@ Configure Azure Pipelines to deploy the Flask starter code to Azure App Services
         The expected output is 
 
 
-![](project-2_screen_captures/local_prediction_Screenshot.png.png){ width="100%" height="100" style="display: block; margin: 0 auto" }
+![](project-2_screen_captures/local_prediction_Screenshot.png.png)
 
 
 - Deploy the app by running
