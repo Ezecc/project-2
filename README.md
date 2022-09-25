@@ -124,7 +124,7 @@ Configure Azure Pipelines to deploy the Flask starter code to Azure App Services
 - Check the package version then save and run
 - The output is as follows.
 
-![](project-2_screen_captures\Screenshot_azure_pipeline.png)
+![](project-2_screen_captures/Screenshot_azure_pipeline.png)
 
 ### Enhancements (Future Improvement Suggestions)
 
