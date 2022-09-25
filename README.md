@@ -38,7 +38,12 @@ Below is the screenshot of the project repo cloned into the azure shell developm
 
 ### Updating the project scaffold and creating Python virtual environment
 - Update the project files: `Makefile`, `requirements.txt` and include the project code files
-- Create a Python virtual environment
+- Create a Python virtual environment as follows.
+    -  ```python3 -m venv ~/.myrepo```
+- Activate the virtual environment by running the fowwing command.
+
+- ```source ~/.myrepo/bin/activate```
+
 - Create the project sript file and test files
 
 ### Performing local code test
