@@ -98,13 +98,14 @@ Configure Azure Pipelines to deploy the [Flask starter code](https://github.com/
 
 ![](project-2_screen_captures/Screenshot_app_log_tail.png)
 
+### Locust Test
 - Checking performance validation with ```locust```
     - modify the host name in the ```locustfile.py``` with the url of the deployed app.
     - Ensure the key names in the json under the ```predict``` function is the same as those in ```app.py```.
 - Run ```locust -f locustfile.py --headless -u 20 -r 5 -t 20s```
 - The expected output is
 
-![](project-2_screen_captures/Screenshot_locust_output.png)
+![](project-2_screen_captures/locustTestOutput_2.png)
 
 ### Setting up CI/CD using 
 - Go to the Azure DevOps organization in the portal
@@ -140,7 +141,7 @@ Some of the ways the project can be improved in the future are:
 - Provide starter codes for deep learming frameworks such as Pytorch and TensorFlow.
 
 ### Demo 
-[Video Link](https://youtu.be/gmbdnoz9JGw)
+[Video Link](https://youtu.be/R8W9Qymqu_4)
 
 
 
